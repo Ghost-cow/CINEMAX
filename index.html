@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMAX</title>
+        <!-- ========== DOCUMENT ICON  ==========  -->
+    <link rel="icon" href='Assets/imgs/cinemax_logo.png' type="image/icon type" />
+
+    <!-- ========== CSS HEADER  ==========  -->
+     <link rel="stylesheet" href="style-header.css">
+
+    <!-- ========== CSS BODY  ==========  -->
+     <link rel="stylesheet" href="style-body.css">
+
+    <!-- ========== CSS FOOTER  ==========  -->
+     <link rel="stylesheet" href="style-footer.css">
+    <!-- ========== REMIXICONS  ==========  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!-- ========== SWIPER.JS  ==========  -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+
+</head>
+<body>
+    <!-- ========== HEADER  ==========  -->
+    <header class="header">
+        <!-- === LOGO === -->
+        <nav class="nav_container">
+            <div class="logo_container">
+                <img src="Assets/imgs/cinemax_logo.PNG" alt="cinemax logo">
+                <a href="#" class="logo">CINEMAX</a>
+            </div>
+            <!-- === NAV AND SEARCH === -->
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"> 
+                        <a href="#" class="nav_link">HOME</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link" > NOW SHOWING</a> 
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link"> cinema</a> 
+                    </li>
+                </ul>
+                <div class="nav_buttons">
+                    <a href="#" class="nav_btn_login"> LOGIN</a>
+                    <a href="#" class="nav_btn_register"> REGISTER</a>
+                </div>
+            <!-- === DROP DOWN X ICON === -->
+             <div class="nav_close" id="nav-close">
+                <i class="ri-arrow-right-double-fill " ></i>
+             </div>
+
+            </div>
+            <!-- === DROP DOWN MENU ICON === -->
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-apps-line"></i>
+            </div>        
+        </nav> 
+     </header>
+
+     <!-- ========== BODY  ==========  -->
+     <main class="main">
+        <!-- BANNER  -->
+         <div class="banner_wrapper">
+            <div class="banner_content">
+                <p>Join us for an exclusive opening <span style="font-weight: 800;">This</span> weekend Don't Miss the Epic Premiere of gladiator-ii
+                  Get your tickets now!</p>
+                <p> Flash Sale Alert! Enjoy <span style="font-weight: 800;">50%</span> Off All Tickets Every Monday! Book your seats today and save!</p>
+                    
+            </div>
+         </div>
+        <!-- SECTION 1  -->
+        <section class=" section "> 
+            <div class="carousel_container">
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="Assets/imgs/poster1_landscape.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="Assets/imgs/poster2_landscape.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img style="transform: translateY(15%);" src="Assets/imgs/poster8_landscape.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Assets/imgs/poster6_landscape.jpg" alt="">
+                    </div>
+          
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+
+        </section>
+
+        <!-- SECTION 2  -->
+        <section class="movie_catalogue section">
+            <h1 class="section_title">Now showing</h1>
+            <div class="catalogue_wrapper">
+            
+                    <div class="movie_wrapper" id="batman">
+                        <div class="front">
+                            <img src="Assets/imgs/batman2-poster.jpg" alt="movie poster batman">
+                            <h4 class="movie_title"> the batman </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG16</span> 2h56m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> the batman </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG16</span> 2h56m</h5>
+                            <p class="movie_description">When a sadistic serial killer begins murdering key political figures in Gotham, The Batman is forced to investigate the city's hidden corruption and question his family's involvement.</p>
+                        </div>
+                    </div>
+                    <div class="movie_wrapper" id="alien-romulus">
+                        <div class="front">
+                            <img src="Assets/imgs/alien_romulus.jpg" alt="movie poster Alien: Romulus">
+                            <h4 class="movie_title"> Alien: Romulus </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 1h59m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> Alien: Romulus </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 1h59m</h5>
+                            <p class="movie_description">While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.</p>
+                        </div>
+                    </div>
+                
+                    <div class="movie_wrapper" id="challengers">
+                        <div class="front">
+                            <img src="Assets/imgs/challengers-poster.jpg" alt="movie poster challengers">
+                            <h4 class="movie_title"> challengers </h4>            
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 2h11m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> challengers </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG18</span> 2h11m</h5>
+                            <p class="movie_description">Tashi, a former tennis prodigy turned coach, transformed her husband into a champion. But to overcome a recent losing streak and redeem himself, he'll need to face off against his former best friend and Tashi's ex-boyfriend</p>
+                        </div>
+                    </div>
+                
+                    <div class="movie_wrapper" id="deadpool">
+                        <div class="front">
+                            <img src="Assets/imgs/deadpool4-poster.jpg" alt="movie poster deadpool">
+                            <h4 class="movie_title"> deadpool & wolverine  </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 2h8m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> deadpool & wolverine </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 2h8m</h5>
+                            <p class="movie_description">Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.</p>
+                        </div>
+                    </div>
+
+                    <div class="movie_wrapper" id="gladiator-ii">
+                        <div class="front">
+                            <img src="Assets/imgs/gladiator-ii.jpg" alt="movie poster gladiator-ii">
+                            <h4 class="movie_title"> gladiator ii </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG16</span> 2h38m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> gladiator ii </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG16</span>  2h38m</h5>
+                            <p class="movie_description">After his home is conquered by the tyrannical emperors who now lead Rome, Lucius is forced to enter the Colosseum and must look to his past to find strength to return the glory of Rome to its people.</p>
+                        </div>
+                    </div>
+
+                    <div class="movie_wrapper" id="joker-ii">
+                        <div class="front">
+                            <img src="Assets/imgs/joker-folie-a-deux-movie-poster.jpg" alt="movie poster joker">
+                            <h4 class="movie_title"> joker: folie a deux </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG16</span> 2h18m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> the batman </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG16</span>  2h18m</h5>
+                            <p class="movie_description">Struggling with his dual identity, failed comedian Arthur Fleck meets the love of his life, Harley Quinn, while incarcerated at Arkham State Hospital.</p>
+                        </div>
+                    </div>
+
+                    <div class="movie_wrapper" id="panda">
+                        <div class="front">
+                            <img src="Assets/imgs/panda4-poster.jpg" alt="movie poster panda4-poster">
+                            <h4 class="movie_title"> Kung Fu Panda 4 </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 1h34m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> Kung Fu Panda 4 </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 1h34m</h5>
+                            <p class="movie_description">After Po is tapped to become the Spiritual Leader of the Valley of Peace, he needs to find and train a new Dragon Warrior, while a wicked sorceress plans to re-summon all the master villains whom Po has vanquished to the spirit realm.</p>
+                        </div>
+                    </div>
+
+                    <div class="movie_wrapper" id="kong">
+                        <div class="front">
+                            <img src="Assets/imgs/kong-poster.jpg" alt="movie poster kong-poster">
+                            <h4 class="movie_title"> Godzilla x Kong: The New Empire </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 1h55m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> Godzilla x Kong: The New Empire </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span> 1h55m</h5>
+                            <p class="movie_description">Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.</p>
+                        </div>
+                    </div>
+
+                    <div class="movie_wrapper" id="batman">
+                        <div class="front">
+                            <img src="Assets/imgs/dune-part-2-poster.jpg" alt="movie poster dune part2 ">
+                            <h4 class="movie_title"> Dune: part two </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span>  2h46m</h5>
+                        </div>
+                        <div class="back">
+                            <h4 class="movie_title"> the batman </h4>
+                            <h5 class="movie_details  "> <span style="color: var(--red-color);">PG13</span>  2h46m</h5>
+                            <p class="movie_description">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family..</p>
+                        </div>
+                    </div>
+
+            </div>
+            </div>
+        </section>
+
+        <section class="cinemas section">
+            <h1 class="section_title">experience cinema like never before</h1>
+
+            <div class="cinema_wrapper">
+            <div class="cinema_imax cinema">
+                <h1 class="cinema_title">imax</h1>
+            </div>
+            <div class="cinema_vip cinema">
+                <h1 class="cinema_title">vip</h1>
+            </div>
+            <div class="cinema_gold cinema">
+                <h1 class="cinema_title">gold</h1>
+            </div>
+            <div class="cinema_kids cinema">
+                <h1 class="cinema_title">kids</h1>
+            </div>
+            <div class="cinema_3d cinema">
+                <h1 class="cinema_title">3d</h1>
+            </div>
+            <div class="cinema_4d cinema">
+                <h1 class="cinema_title">4d</h1>
+            </div>
+            <div class="cinema_dolby cinema">
+                <h1 class="cinema_title">Dolby</h1>
+            </div>
+        </div>
+        </section>
+
+     </main>
+    
+    
+    <!-- ========== FOOTER  ==========  -->
+     <footer class="footer">
+        <div class="footer_content">
+            <div class="footer_left">
+
+            
+            <div class="stay_in_touch">
+                <div class="mini_logo">
+                    <div class="logo_container">
+                        <img class="logo_mini" src="Assets/imgs/cinemax_logo.PNG" alt="cinemax logo">
+                        <div class=" logo">CINEMAX</div>  
+                    </div>
+                </div>
+                <h4> stay in touch</h4>
+                <div class="social_media">
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-facebook-circle-line"></i>
+                    <i class="ri-youtube-line"></i>
+                    <i class="ri-twitter-line"></i>
+                </div>
+            </div>
+        </div>
+            <div class="footer_info">
+
+            
+            <div class="about">
+                <div class="about_header" id="about-header">
+                     <h4> about</h4>
+
+                </div>
+               
+                <ul class="about_list" id="about-list">
+                    <li>
+                        <a href="#">about us</a>
+                    </li>
+                    <li>
+                        <a href="#"> school bookings </a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">sustainability</a>
+                    </li>
+                    <li>
+                        <a href="#">events</a>
+                    </li>
+                    <li>
+                        <a href="#">cinemax app</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            
+            <div class="help">
+                <div class="help_header" id="help-header">
+                    <h4>Help & Support</h4>
+
+               </div>
+                <ul class="help_list" id="help-list">
+                    <li>
+                        <a href="#">refunds</a>
+                    </li>
+                    <li>
+                        <a href="#">contact us </a>
+                    </li>
+                    <li>
+                        <a href="#"><spam style="text-transform: none;">
+                            FAQs</spam></a>
+                    </li>
+                    <li>
+                        <a href="#">find us</a>
+                    </li>
+                    <li>
+                        <a href="#">health & safety</a>
+                    </li>
+                    <li>
+                        <a href="#">privacy center</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="explore">
+                <div class="explore_header" id="explore-header">
+                    <h4> explore our site</h4>
+
+               </div>
+                <ul class="explore_list" id="explore-list">
+                    <li class="explore_link">
+                        <a href="#">what's on</a>
+                    </li>
+                    <li class="explore_link">
+                        <a href="#">coming soon</a>
+                    </li>
+                    <li class="explore_link">
+                        <a href="#">food & drinks</a>
+                    </li>
+                    <li class="explore_link">
+                        <a href="#">all movie genres</a>
+                    </li>
+                    <li class="explore_link">
+                        <a href="#">offers</a>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+            <div class="copyright_container">
+                <h4> &copy; copyright 2024</h4>
+            </div>
+     </footer>
+
+
+
+<!-- ========== JAVASCRIPT  ==========  -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
